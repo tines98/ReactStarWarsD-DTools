@@ -1,0 +1,63 @@
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+footer{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.App{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #5e5e5e;
+}
+
+.title{
+  color: red;
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  align-self: center;
+}
+
+.headerBar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  background-color: black;
+}
+
+.initiativeTracker{
+  height: auto;
+  background-color: royalblue;
+}
+
+.logo{
+  justify-self: flex-end;
+  align-self: flex-end;
+  height: 100%;
+}
+
+.player{
+  background-color: gray;
+  resize: both;
+  overflow-y: auto;
+  width: auto;
+  height: auto;
+}
+
+.diceRoller {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+

@@ -1,0 +1,39 @@
+.soundBoard{
+    text-align: center;
+    background-color:#222222;
+    height: 200px;
+    overflow-y: auto;
+    box-shadow: 4px 3px #050505;
+}
+.soundBoardColumn{
+    background-color: transparent;
+    width: 100px;
+}
+.soundBoardHeader{
+    color: darkgray;
+    border-bottom: 1px solid white;
+    background-color: #222222;
+}
+.playpause{
+    width: auto;
+    height: auto;
+    background-color: hotpink;
+}
+
+.soundButton {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: red;
+    border: solid 1px black;
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    font-size: 16px;
+    border-radius: 8px;
+} .soundButton:hover{
+    background-color: #ff4444;
+}

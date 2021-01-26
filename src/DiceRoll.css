@@ -1,0 +1,7 @@
+.diceroller{
+    width: 200px;
+    display: table;
+    text-align: center;
+    background-color: purple;
+    border-radius: 8px;
+  }

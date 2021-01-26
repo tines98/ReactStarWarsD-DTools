@@ -1,55 +1,92 @@
 .initiativeTracker{
-    width: 300px;
-    background-color: green;
-}
-
-.unit {
-
+    align-content: center;
+    padding: 15px;
 }
 
 .initiativeTable{
-
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    color: white;
 }
 
-#table caption{
-    background-color: red;
+.btn{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    box-shadow: none;
 }
 
-#table, th, td{
-    width: 300px;
+.btn:hover{
+    background-color: lightgray;
+}
+
+
+#table {
+    background-color: #333;
     border-collapse: collapse;
-    border: 1px solid red;
-    background-color: black;
+    border-radius: 8px;
+} #table caption{
+    background-color: transparent;
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    font-size: 30px;
+    padding: 5px
+} #table tr {
+    color: white;
+    height: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    
+} #table td {
+    color: white;
+    background-color: transparent;
+    
+} #table th{
+    color: lightgray;
+    background-color: transparent;
+}
+
+
+.buttonBoard{
+    width: 100%;
+    background-color: transparent;
 }
 
 .nextButton {
     position: relative;
-    align-self: end;
-    background-color: red; /* Green */
-    border: none;
+    top: 0px;
+    right: 0px;
+    margin-left: 3px;
+    width: 49%;
+    background-color: red;
+    border: solid 1px black;
+    
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+
+
     font-size: 16px;
-}
-
-.takeDamageButton{
-
-}
-
-.deleteButton{
-
+    border-radius: 8px;
+} .nextButton:hover{
+    background-color: #ff4444;
 }
 
 .addUnitButton{
+    position: relative;
+    margin-right: 3px;
     background-color: red; /* Green */
-    border: none;
+    border: solid 1px black;
+    width: 49%;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
+} .addUnitButton:hover{
+    background-color: #ff4444;
 }

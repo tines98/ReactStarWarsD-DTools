@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-import './App.css';
-import sw5elogo from './sw5e-logo.png';
-import Sidebar from './Sidebar';
-import DiceRoll from './DiceRoll';
-import InitiativeTracker from './InitiativeTracker';
+import Main from "./Main.js";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App" id="outer-container">
-        <div className='sw5elogo'>
-          <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-          <img src={sw5elogo} className="logo"></img>
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Main}/>
+          </Switch>
         </div>
-        <DiceRoll/>
-        <InitiativeTracker></InitiativeTracker>
-      </div>
-      
+      </Router>
     );
   }
 }
